@@ -13,6 +13,6 @@ function mergeAlternately(word1, word2) {
   return mergedWord;
 }
 
-// Big O notation
+// Big O Notation
 // Time - O(max(a, b))) -> O(n) where a and b are lengths of word1 and word2, respectively
 // Space - O(a + b) -> O(n)

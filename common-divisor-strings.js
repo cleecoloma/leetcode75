@@ -20,6 +20,6 @@ function gcdOfStrings(str1, str2) {
   return str1.slice(0, div);
 }
 
-// Big O notation
+// Big O Notation
 // Time - O(log(min(a, b)))
 // Space - O(1)
