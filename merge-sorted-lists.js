@@ -13,3 +13,7 @@ function mergeSortedLists(list1, list2) {
     return list2;
   }
 }
+
+// Big O Notation
+// Time - O(n)
+// Space - O(n)
