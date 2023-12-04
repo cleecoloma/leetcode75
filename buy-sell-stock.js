@@ -12,3 +12,7 @@ function maxProfit(prices) {
   }
   return profit;
 }
+
+// Big O Notation
+// Time - O(n)
+// Space - O(1)
