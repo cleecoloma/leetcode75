@@ -19,3 +19,7 @@ function validParentheses(s) {
 
   return !stack.length;
 }
+
+// Big O Notation
+// Time - O(n)
+// Space - O(n)
