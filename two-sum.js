@@ -15,3 +15,7 @@ function twoSum(nums, target) {
   }
   return results;
 }
+
+// Big O Notation
+// Time - O(n)
+// Space - O(n)
