@@ -1,13 +1,11 @@
 'use strict';
 
 function validPalindrome(s) {
-  const regex = /[^a-z0-9]/g;
-  const lowerCase = s.toLowerCase();
-  const letters = lowerCase.replace(regex, '');
+  s = s.toLowerCase().replace(/[^a-z0-9]/g, '');
   let left = 0;
-  let right = letters.length - 1;
+  let right = s.length - 1;
   while (left < right) {
-    if (letters[left] === letters[right]) {
+    if (s[left] === s[right]) {
       left++;
       right--;
     } else {
@@ -19,3 +17,7 @@ function validPalindrome(s) {
 
 let string = 'A man, a plan, a canal: Panama';
 console.log(validPalindrome(string));
+
+// Big O Notation
+// Time - O(n)
+// Space - O(1)
