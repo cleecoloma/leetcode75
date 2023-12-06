@@ -15,3 +15,7 @@ function invertBinaryTree(root) {
     }
     return root;
 }
+
+// Big O Notation
+// Time - O(n)
+// Space - O(h) where h is the height/levels of the tree (temp variable)
