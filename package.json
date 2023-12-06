@@ -1,0 +1,13 @@
+{
+  "name": "leetcode75",
+  "version": "1.0.0",
+  "description": "",
+  "main": "valid-palindrome.js",
+  "scripts": {
+    "start": "node valid-palindrome.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
