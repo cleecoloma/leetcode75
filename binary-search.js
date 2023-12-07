@@ -1,7 +1,6 @@
 'use strict';
 
 function binarySearch(nums, target) {
-  let mid = Math.floor((nums.length - 1)/2);
   let left = 0;
   let right = nums.length - 1;
 
@@ -18,3 +17,7 @@ function binarySearch(nums, target) {
 
   return -1;
 }
+
+// Big O Notation
+// Time - O(n)
+// Space - O(c) where c is the number of unique characters
