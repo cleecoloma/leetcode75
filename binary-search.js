@@ -19,5 +19,5 @@ function binarySearch(nums, target) {
 }
 
 // Big O Notation
-// Time - O(n)
-// Space - O(c) where c is the number of unique characters
+// Time - O(log(n))
+// Space - O(1) 
