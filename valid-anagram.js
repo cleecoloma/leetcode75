@@ -16,3 +16,7 @@ function isAnagram(s, t) {
   }
   return true;
 }
+
+// Big O Notation
+// Time - O(n)
+// Space - O(c) where c is the number of unique characters
