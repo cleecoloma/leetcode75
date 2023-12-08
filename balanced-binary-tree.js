@@ -18,3 +18,7 @@ function isBalanced(root) {
   checker(root, 0);
   return balance;
 }
+
+// Big O Notation
+// Time - O(n)
+// Space - O(n) // n for the height of the tree
