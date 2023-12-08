@@ -22,3 +22,7 @@ function floodFill(image, sr, sc, color) {
     fill(image, sr, sc - 1, color, newColor);
   }
 }
+
+// Big O Notation
+// Time - O(n)
+// Space - O(n) 
