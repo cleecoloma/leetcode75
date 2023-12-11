@@ -12,3 +12,8 @@ function hasCycle(head) {
   }
   return false;
 }
+
+
+// Big O Notation
+// Time - O(n)
+// Space - O(n)
