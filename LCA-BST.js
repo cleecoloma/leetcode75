@@ -15,6 +15,9 @@ function lowestCommonAncestor(root, p, q) {
   }
   return root;
 }
+// Big O Notation
+// Time - O(h) where h is the height of the tree
+// Space - O(1)
 
 //Recursive solution
 function lowestCommonAncestor(root, p, q) {
@@ -26,3 +29,6 @@ function lowestCommonAncestor(root, p, q) {
   }
   return root;
 }
+// Big O Notation
+// Time - O(h) where h is the height of the tree
+// Space - O(n)
