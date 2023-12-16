@@ -29,3 +29,23 @@ myQueue.prototype.peek = function() {
 myQueue.prototype.empty = function() {
   return this.stack1.length == 0 && this.stack2.length == 0;
 }
+
+//Big O notation
+/* 
+push operation:
+Time Complexity: O(1)
+Space Complexity: O(1)
+
+pop operation:
+Time Complexity: Amortized O(1)
+Space Complexity: O(n)
+The pop operation may require moving all elements from stack1 to stack2 once. However, this is an amortized analysis. In the worst case, where pop is called just after a series of push operations, it can be O(n), but over a sequence of operations, it averages out to O(1) per pop operation.
+
+peek operation:
+Time Complexity: O(1)
+Space Complexity: O(1)
+
+empty operation:
+Time Complexity: O(1)
+Space Complexity: O(1)
+*/
