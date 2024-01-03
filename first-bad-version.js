@@ -1,25 +1,21 @@
 'use strict';
 
-function validParentheses(s) {
-  const stack = [];
-  const map = {
-    '(': ')',
-    '[': ']',
-    '{': '}',
-  }
-
-  for (let i = 0; i < s.length; i++) {
-    let c = s[i];
-    if (map[c]) {
-      stack.push(map(c))
-    } else if (c !== stack.pop()) {
-      return false;
+function firstBadVersion(isBadVersion) {
+  return function (n) {
+    let start = 1;
+    let end = n;
+    while (start < end) {
+      let mid = Math.floor((start + end) / 2);
+      if(isBadVersion(mid)){
+        end = mid;
+      } else {
+        start = mid + 1;
+      }
     }
-  }
-
-  return !stack.length;
-}
+    return start;
+  };
+};
 
 // Big O Notation
-// Time - O(n)
-// Space - O(n)
+// Time -
+// Space -
