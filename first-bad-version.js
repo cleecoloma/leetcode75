@@ -17,5 +17,5 @@ function firstBadVersion(isBadVersion) {
 };
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O (log(n))
+// Space - O (1)
