@@ -26,5 +26,5 @@ function ransomNote(ransomNote, magazine) {
 }
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O(n + m) --> added characters from ransomNote and magazine
+// Space - O(1) --> limited number of characters
