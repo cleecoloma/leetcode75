@@ -20,5 +20,5 @@ function longestPalindrome(s) {
 }
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O(n)
+// Space - O(n) but theres a case for O(1) for limited unique characters
