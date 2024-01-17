@@ -21,9 +21,15 @@ function reverseLinkedList(head) {
 
 //RECURSIVE
 function reverseLinkedList(head) {
-
+  if (head = null || head.next == null) {
+    return head;
+  }
+  let reverseList = reverseList(head.next)
+  head.next.next = head;
+  head.next = null;
+  return reverseList;
 }
 
 // Big O Notation (RECURSIVE)
-// Time - 
-// Space -
+// Time - O(n)
+// Space - O(n)
