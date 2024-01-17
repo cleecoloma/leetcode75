@@ -16,6 +16,6 @@ function reverseLinkedList(head) {
 }
 
 
-// Big O Notation
-// Time - 
-// Space - 
+// Big O Notation (ITERATIVE)
+// Time - O(n)
+// Space - O(1)
