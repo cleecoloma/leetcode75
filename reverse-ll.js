@@ -1,6 +1,6 @@
 'use strict';
 
-//iterative
+//ITERATIVE
 function reverseLinkedList(head) {
   let previous = null;
   let current = head;
@@ -15,7 +15,15 @@ function reverseLinkedList(head) {
   return previous;
 }
 
-
 // Big O Notation (ITERATIVE)
 // Time - O(n)
 // Space - O(1)
+
+//RECURSIVE
+function reverseLinkedList(head) {
+
+}
+
+// Big O Notation (RECURSIVE)
+// Time - 
+// Space -
