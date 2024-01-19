@@ -11,5 +11,5 @@ function addBinary(a,b) {
 }
 
 // Big O Notation
-// Time - 
-// Space - 
+// Time - O(max(n, m))
+// Space - O(n + m)
