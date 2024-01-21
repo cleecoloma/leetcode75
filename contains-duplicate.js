@@ -13,5 +13,5 @@ function containsDuplicate(nums) {
 }
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O(n)
+// Space - O(n)
