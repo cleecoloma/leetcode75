@@ -12,5 +12,5 @@ function maxDepth(root) {
 }
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O(n)
+// Space - O(n)
