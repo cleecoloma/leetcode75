@@ -65,5 +65,5 @@ function threeSums(nums) {
 }
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O(n log(n))
+// Space - O(n^2)
