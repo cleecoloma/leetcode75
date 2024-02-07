@@ -60,5 +60,5 @@ function updateMatrix(mat) {
 }
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O (m x n)
+// Space - O (m x n)
