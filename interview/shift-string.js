@@ -23,5 +23,5 @@ function shiftString(s, shifts) {
 }
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O(n x m) where n is length of array "shifts" and m is length of string "s"
+// Space - O(m) where m is the length of string "s"
