@@ -1,10 +1,10 @@
 'use strict';
 
 function reverseString(string) {
-  let temp = "";
+  let temp = '';
   let start = 0;
   let end = string.length - 1;
-  let stringArray = string.split("");
+  let stringArray = string.split('');
 
   while (start < end) {
     temp = stringArray[start];
@@ -15,9 +15,9 @@ function reverseString(string) {
     end--;
   }
 
-  return stringArray.join("");
+  return stringArray.join('');
 }
 
 // Big O Notation
-// Time - 
-// Space - 
+// Time - O(n)
+// Space - O(n)
