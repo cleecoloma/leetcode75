@@ -17,5 +17,5 @@ function validAnagram(strs) {
 }
 
 // Big O Notation
-// Time - O(n)
+// Time - O(n log(n))
 // Space - O(n)
