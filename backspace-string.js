@@ -1,5 +1,6 @@
 'use strict';
 
+// TWO Pointers
 function backspaceCompare(s, t) {
   let sChars = s.split('');
   let tChars = t.split('');
@@ -32,5 +33,5 @@ function backspaceCompare(s, t) {
 }
 
 // Big O Notation
-// Time - 
-// Space - 
+// Time - O (n + m)
+// Space - O (n + m)
