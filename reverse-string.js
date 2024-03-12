@@ -17,5 +17,5 @@ function reverseString(s) { // word
 }
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O(n)
+// Space - O(1)
