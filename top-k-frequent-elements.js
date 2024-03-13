@@ -27,5 +27,5 @@ function topKFrequent(nums, k) {
 }
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O(n log (n))
+// Space - O(n)
