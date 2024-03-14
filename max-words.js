@@ -11,5 +11,5 @@ function mostWordsFound(sentences) {
 }
 
 // Big O Notation
-// Time - 
-// Space - 
+// Time - O(n)
+// Space - O(1)
