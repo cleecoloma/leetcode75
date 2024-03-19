@@ -13,5 +13,5 @@ function missingNumber(nums) {
 }
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O(n)
+// Space - O(1)
