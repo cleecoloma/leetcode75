@@ -10,5 +10,5 @@ function isPalindrome(x) {
 }
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O(log(n))
+// Space - O(log(n))
