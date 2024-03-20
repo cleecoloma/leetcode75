@@ -1,22 +1,12 @@
 'use strict';
 
 function isPalindrome(x) {
-  if (x < 0) {
+  if (x < 0 || ( x % 10 === 0 && x > 0)) {
     return false;
   }
 
-  let start = 0;
-  let end = x.length - 1;
-
-  while (start < end) {
-    if (x[start] !== x[end]) {
-      return false;
-    }
-    start++;
-    end--;
-  }
-
-  return true;
+  const reverse = `${x}`.split('').reverse().join('');
+  return x == reverse;
 }
 
 // Big O Notation
