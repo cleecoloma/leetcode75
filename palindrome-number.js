@@ -1,6 +1,8 @@
 'use strict';
 
-function isPalindrome(x) {}
+function isPalindrome(x) {
+  
+}
 
 // Big O Notation
 // Time -
