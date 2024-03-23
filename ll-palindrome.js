@@ -1,6 +1,6 @@
 'use strict';
 
-function llPalindrom(head) {}
+function llPalindrome(head) {}
 
 // Big O Notation
 // Time -
