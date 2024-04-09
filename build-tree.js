@@ -17,5 +17,5 @@ function buildTree(preorder, inorder) {
   return build();
 }
 // Big O Notation
-// Time -
-// Space -
+// Time - O(n)
+// Space - O(n)
