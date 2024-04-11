@@ -16,5 +16,5 @@ function coinChange(coins, amount) {
 }
 
 // Big O Notation
-// Time - 
-// Space - 
+// Time - O(n)
+// Space - O(n)
