@@ -4,6 +4,10 @@ function sameTree(p, q) {
   return JSON.stringify(p) === JSON.stringify(q);
 }
 
+// Big O Notation
+// Time - O(n)
+// Space - O(n)
+
 function sameTreeV2(p, q) {
   // the same if both nodes are null
   if (!p && !q) return true;
@@ -13,5 +17,5 @@ function sameTreeV2(p, q) {
 }
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O(n)
+// Space - O(log(n))
