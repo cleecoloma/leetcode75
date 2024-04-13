@@ -17,10 +17,13 @@ function isSymmetric(root) {
     if (left.val !== right.val) {
       return false;
     }
-    return symmetricChecker(left.left, right.right) && symmetricChecker(left.right, right.left);
+    return (
+      symmetricChecker(left.left, right.right) &&
+      symmetricChecker(left.right, right.left)
+    );
   }
 }
 
 // Big O Notation
-// Time -
-// Space -
+// Time - O(n)
+// Space - O(n)
